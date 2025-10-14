@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>งานส่งเสริมและพัฒนางานวิจัย | วิทยาลัยพยาบาลบรมราชชนนี สุรินทร์ (BCNSURIN)</title>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Kanit', sans-serif;
+      background-color: #f7faff;
+      color: #1a2b4c;
+    }
+    header {
+      background: linear-gradient(90deg, #0b74d1, #074b8a);
+      color: white;
+      padding: 20px 0;
+    }
+    .header-container {
+      width: 90%;
+      max-width: 1200px;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .header-left {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .header-left img {
+      width: 150px;
+      height: 100px;
+    }
+    .header-left h1 {
+      margin: 0;
+      font-size: 20px;
+    }
+    .header-left h2 {
+      margin: 0;
+      font-size: 16px;
+      font-weight: 300;
+    }
+    nav {
+      background-color: #074b8a;
+      padding: 10px 0;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.2s;
+      padding: 10px 15px; /* เพิ่มพื้นที่คลิก */
+      display: block;
+    }
+    nav ul li a:hover {
+      color: #b5e0ff;
+    }
+
+    /* --- CSS สำหรับ Dropdown Menu (เมนูย่อย) --- */
+    .dropdown {
+      position: relative; /* กำหนดให้เมนูย่อยอยู่เทียบกับเมนูหลัก */
+    }
+
+    .dropdown-content {
+      display: none; /* ซ่อนเมนูย่อยไว้ */
+      position: absolute;
+      background-color: #074b8a; /* สีพื้นหลังเมนูย่อย */
+      min-width: 180px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      left: 0;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      border-top: 2px solid #0b74d1;
+    }
+
+    .dropdown-content li a {
+      color: white;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      white-space: nowrap;
+    }
+
+    .dropdown-content li a:hover {
+      background-color: #095c9a; /* สีเข้มขึ้นเมื่อชี้ */
+      color: white;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block; /* แสดงเมนูย่อยเมื่อชี้ที่เมนูหลัก */
+    }
+    /* ------------------------------------------- */
+
+    main {
+      width: 90%;
+      max-width: 1000px;
+      margin: 30px auto;
+    }
+    section {
+      background-color: white;
+      border-radius: 6px;
+      padding: 20px 24px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      margin-bottom: 20px;
+    }
+    h2.section-title {
+      background-color: #0b74d1;
+      color: white;
+      padding: 8px 12px;
+      border-radius: 4px;
+      font-size: 18px;
+    }
+    p, li {
+      line-height: 1.7;
+      color: #2d3a5e;
+    }
+    ol, ul {
+      margin-left: 20px;
+    }
+    footer {
+      background-color: #074b8a;
+      color: white;
+      text-align: center;
+      padding: 16px 0;
+      margin-top: 30px;
+    }
+      
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <div class="header-left">
+        <img src="https://drive.google.com/thumbnail?id=179BCMIuU5ecDVLfQi9o-KPoG2U9zZqay&sz=w1000" alt="โลโก้วิทยาลัยพยาบาลบรมราชชนนี สุรินทร์">
+        
+        <div>
+          <h1>วิทยาลัยพยาบาลบรมราชชนนี สุรินทร์</h1>
+          <h2>งานส่งเสริมและพัฒนางานวิจัย</h2>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">หน้าหลัก</a></li>
+      <li class="dropdown">
+        <a href="#about">เกี่ยวกับเรา</a>
+        <ul class="dropdown-content">
+          <li><a href="#about">เกี่ยวกับหน่วยงาน</a></li>
+          <li><a href="#committee">คณะกรรมการวิจัย</a></li>
+          <li><a href="#personnel">บุคลากร</a></li>
+          <li><a href="#policy">นโยบายด้านการวิจัย</a></li>
+          <li><a href="#contact">ติดต่อเรา</a></li>
+        </ul>
+      </li>
+      <li><a href="#fund">ทุนวิจัย</a></li>
+      <li><a href="#research">ผลงานวิจัย</a></li>
+      <li><a href="#property">ทรัพย์สินทางปัญญา</a></li>
+      <li><a href="#download">ดาวน์โหลด</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2 class="section-title">เกี่ยวกับหน่วยงาน</h2>
+      <h3>ประวัติความเป็นมา</h3>
+      <p>วิทยาลัยพยาบาลบรมราชชนนี สุรินทร์ ได้จัดตั้งหน่วยงานส่งเสริมและพัฒนางานวิจัย เพื่อเป็นศูนย์กลางการวิจัยด้านการพยาบาลในระดับภูมิภาค โดยมุ่งเน้นการสนับสนุนและพัฒนาศักยภาพของอาจารย์ นักศึกษา และบุคลากรในการทำวิจัย สร้างเครือข่ายความร่วมมือทางวิชาการ และเผยแพร่ผลงานวิจัยสู่การใช้ประโยชน์ในชุมชนและสังคม</p>
+
+      <h3>วัตถุประสงค์</h3>
+      <ol>
+        <li>เป็นศูนย์กลางการวิจัยทางการพยาบาลของวิทยาลัย</li>
+        <li>เผยแพร่และประชาสัมพันธ์ผลงานวิจัยสู่ชุมชน</li>
+        <li>พัฒนาศักยภาพนักวิจัยให้มีความเชี่ยวชาญและทันสมัย</li>
+        <li>สร้างเครือข่ายความร่วมมือกับหน่วยงานภายนอก</li>
+      </ol>
+
+      <h3>หน้าที่ความรับผิดชอบของงานส่งเสริมและพัฒนางานวิจัย</h3>
+      <ul>
+        <li>ส่งเสริมและเผยแพร่งานวิจัยทางการพยาบาล</li>
+        <li>ให้คำปรึกษาและแนวทางการขอทุนวิจัย</li>
+        <li>จัดอบรมพัฒนาศักยภาพนักวิจัย</li>
+        <li>จัดทำฐานข้อมูลและรายงานผลการวิจัยของวิทยาลัย</li>
+      </ul>
+    </section>
+
+    <section id="committee">
+      <h2 class="section-title">คณะกรรมการวิจัย</h2>
+      <p>ข้อมูลรายชื่อคณะกรรมการชุดปัจจุบัน และวาระการปฏิบัติงาน (กรุณาใส่เนื้อหาเพิ่มเติม)</p>
+    </section>
+
+    <section id="personnel">
+      <h2 class="section-title">บุคลากร</h2>
+      <p>รายชื่อเจ้าหน้าที่ผู้รับผิดชอบงานส่งเสริมและพัฒนางานวิจัย และช่องทางติดต่อภายใน (กรุณาใส่เนื้อหาเพิ่มเติม)</p>
+    </section>
+
+    <section id="policy">
+      <h2 class="section-title">นโยบายด้านการวิจัย</h2>
+      <p>นโยบายและแผนยุทธศาสตร์ด้านการวิจัยของวิทยาลัยพยาบาลบรมราชชนนี สุรินทร์ (กรุณาใส่เนื้อหาเพิ่มเติม)</p>
+    </section>
+
+    <section id="fund">
+      <h2 class="section-title">ทุนวิจัย</h2>
+      <p>ข้อมูลทุนวิจัย (placeholder)</p>
+    </section>
+
+    <section id="research">
+      <h2 class="section-title">ผลงานวิจัย</h2>
+      <p>ผลงานวิจัย (placeholder)</p>
+    </section>
+    
+    <section id="property">
+      <h2 class="section-title">ทรัพย์สินทางปัญญา</h2>
+      <p>ทรัพย์สินทางปัญญา (placeholder)</p>
+    </section>
+
+    <section id="download">
+      <h2 class="section-title">ดาวน์โหลด</h2>
+      <p>เอกสารดาวน์โหลด (placeholder)</p>
+    </section>
+
+    <section id="contact">
+      <h2 class="section-title">ติดต่อเรา</h2>
+      <p>ข้อมูลการติดต่อ (placeholder)</p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2025 วิทยาลัยพยาบาลบรมราชชนนี สุรินทร์ | งานส่งเสริมและพัฒนางานวิจัย</p>
+  </footer>
+</body>
+</html>
